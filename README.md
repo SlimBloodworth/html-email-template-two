@@ -54,9 +54,8 @@ Users should be able to:
 
 #### Tested with
 
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- [Litmus PutsMail](https://www.putsmail.com/)
+- [Validator - w3.org](https://validator.w3.org)
 
 ### Important notes about html email code
 
@@ -80,6 +79,8 @@ Adding http-equiv="Content-Type" content="text/html" tells the destination rende
 
 ### Continued development
 
+- TBA
+
 ### Useful resources
 
 - [Validator - w3.org](https://validator.w3.org) - Validator used to catch mistakes and iron out details.
@@ -99,3 +100,5 @@ Adding http-equiv="Content-Type" content="text/html" tells the destination rende
 - GitHub - [@slimbloodworth](https://github.com/SlimBloodworth)
 
 ## Acknowledgments
+
+- [Nicole Merlin](https://webdesign.tutsplus.com/what-you-should-know-about-html-email--webdesign-12908t) - For a wonderful and useful article!
