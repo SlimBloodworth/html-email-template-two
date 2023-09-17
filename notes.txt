@@ -14,21 +14,24 @@ This project will use nested tables:
 
 #2 - Styling CSS
 Security does not allow for ANY external files.
-This includes images and external stylesheets. Styling needs to be handled by either internal styles, or by inline styles.
-Images need to be hosted online and you will need to link them.
-You can only apply ONE CLASS PER element, multiple classes are not supported.
-You CANNOT use shorthand for CSS styles in HTML as they are not supported.
-For this project, inline styles will be used with any classes used in an internal stylesheet.
-The internal stylesheet will be pulled inline by the ESP (Email Service Provider) at the end.
+This includes images and external stylesheets. 
+- Styling needs to be handled by either internal styles, or by inline styles.
+- Images need to be hosted online and you will need to link them.
+- You can only apply ONE CLASS PER element, multiple classes are not supported.
+- You CANNOT use shorthand for CSS styles in HTML as they are not supported.
+For this project, inline styles will be used with any classes used in an internal style sheet.
+The internal style sheet will be pulled inline by the ESP (Email Service Provider) at the end.
 
 #3 - !DOCTYPE, <html>, and <meta>
-In HTML emails we still use XHTML Transitional 1.0 as our document type as it is the most compatible document type across email clients.
-
+- HTML emails use XHTML Transitional 1.0 as the document type as it is the most compatible document type across email clients.
+- Add xmls="http://www.w3.org/1999/xhtml" to the opening html tag.
+- Adding http-equiv="Content-Type" content="text/html" to the meta tag with charset="UTF-8" tells the destination rendering engine how to process text and special characters for HTML emails. You should encode any special characters anyway.
 
 ~ Tools and resources ~
 
 - Validator: https://validator.w3.org/
 - A free online image hosting site - imbb: https://imgbb.com/
+- Entity Code Cheat Sheet: https://entitycode.com/
 * Image compression tools*
 - JPEGmini: https://www.jpegmini.com/
 - tinyPNG: https://tinypng.com/

@@ -65,6 +65,13 @@ In HTML emails we still use XHTML Transitional 1.0 as our document type as it is
 ```html
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ```
+
+Will need to add xmls="http://www.w3.org/1999/xhtml" to the html tag:
+
+```html
+<html lang="en" xmls="http://www.w3.org/1999/xhtml">
+```
+
 Adding http-equiv="Content-Type" content="text/html" tells the destination rendering engine how to process text and special characters for HTML emails:
 
 ```html
@@ -77,6 +84,7 @@ Adding http-equiv="Content-Type" content="text/html" tells the destination rende
 
 - [Validator - w3.org](https://validator.w3.org) - Validator used to catch mistakes and iron out details.
 - [imgbb](https://imgbb.com/) - Free image hosting.
+- [Entity Codes](https://entitycode.com/) - Entity Code Cheat Sheet.
 - [What You Should Know About HTML Email](https://webdesign.tutsplus.com/what-you-should-know-about-html-email--webdesign-12908t) - Great article on things to know.
 - [envato tuts+: Mastering HTML Email](https://webdesign.tutsplus.com/series/mastering-html-email--webdesign-17696) - A wonderful guide to learning HTML email development.
 
