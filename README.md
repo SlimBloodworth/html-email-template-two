@@ -6,6 +6,7 @@
   - [Links](#links)
 - [My process](#my-process)
   - [Built with](#built-with)
+  - [Tested with](#tested-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
@@ -14,17 +15,17 @@
 
 ## Overview
 
+- This is an HTML email template.
+
 ### The challenge
 
 Users should be able to:
 
-- View the optimal layout for the component depending on their device's screen size
-- See the social media share links when they click the share icon
+- View the optimal layout for the component depending on their device's screen size.
 
 ### Screenshot
 
 ![](./screenshot.jpg)
-
 
 
 ### Links
@@ -34,18 +35,27 @@ Users should be able to:
 
 ## My process
 
+- This follows a workflow of build and test:
+- Work structurally leaving in all table borders and cell background colors to help more clearly see what is being created, then removing them at the end.
+- Work until a minor development milestone is reached, then run a test.
+- Run tests through validator, accessibility checker, and spam checker.
+- First: Build the skeleton - then test.
+- Next: Add content - then test.
+- Next: Style colors and fonts - then test.
+- Next: Remove borders and backgrounds - then test.
+
+
 ### Built with
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
+- HTML5 markup
+- CSS
 - Mobile-first workflow
+
+#### Tested with
+
 - [React](https://reactjs.org/) - JS library
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
-
-
 
 ### What I learned
 
@@ -69,7 +79,7 @@ const proudOfThisFunc = () => {
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [Validator](https://validator.w3.org) - Validator used to catch mistakes and iron out details.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 ## Author
