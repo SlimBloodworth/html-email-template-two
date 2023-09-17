@@ -7,7 +7,7 @@
 - [My process](#my-process)
   - [Built with](#built-with)
   - [Tested with](#tested-with)
-  - [What I learned](#what-i-learned)
+  - [Important notes about html email code](#important-notes-about-html-email-code)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
@@ -15,7 +15,8 @@
 
 ## Overview
 
-- This is an HTML email template.
+- This is an HTML email template used to facilitate a workshop.
+- More detailed instructions and information can be viewed in the [notes.txt file](./notes.txt).
 
 ### The challenge
 
@@ -25,12 +26,13 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+- ![desktop](./screenshot.jpg)
+- ![tablet](./screenshot.jpg)
+- ![mobile](./screenshot.jpg)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -44,7 +46,6 @@ Users should be able to:
 - Next: Style colors and fonts - then test.
 - Next: Remove borders and backgrounds - then test.
 
-
 ### Built with
 
 - HTML5 markup
@@ -57,21 +58,18 @@ Users should be able to:
 - [Next.js](https://nextjs.org/) - React framework
 - [Styled Components](https://styled-components.com/) - For styles
 
-### What I learned
+### Important notes about html email code
 
 To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+To see how you can add code snippets, see below:
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
 }
 ```
 
