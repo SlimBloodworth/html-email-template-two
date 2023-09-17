@@ -87,6 +87,7 @@ Adding http-equiv="Content-Type" content="text/html" tells the destination rende
 - [Entity Codes](https://entitycode.com/) - Entity Code Cheat Sheet.
 - [What You Should Know About HTML Email](https://webdesign.tutsplus.com/what-you-should-know-about-html-email--webdesign-12908t) - Great article on things to know.
 - [envato tuts+: Mastering HTML Email](https://webdesign.tutsplus.com/series/mastering-html-email--webdesign-17696) - A wonderful guide to learning HTML email development.
+- [Litmus PutsMail](https://www.putsmail.com/) - Litmus email testing.
 
 ## Author
 

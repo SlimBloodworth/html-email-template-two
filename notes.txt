@@ -30,6 +30,7 @@ The internal style sheet will be pulled inline by the ESP (Email Service Provide
 ~ Tools and resources ~
 
 - Validator: https://validator.w3.org/
+- Litmus PutsMail: https://www.putsmail.com/
 - A free online image hosting site - imbb: https://imgbb.com/
 - Entity Code Cheat Sheet: https://entitycode.com/
 * Image compression tools*
