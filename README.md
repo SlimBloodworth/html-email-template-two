@@ -60,25 +60,25 @@ Users should be able to:
 
 ### Important notes about html email code
 
-To see how you can add code snippets, see below:
+In HTML emails we still use XHTML Transitional 1.0 as our document type as it is the most compatible document type across email clients:
 
 ```html
-<h1>Some HTML code I'm proud of</h1>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 ```
-To see how you can add code snippets, see below:
+Adding http-equiv="Content-Type" content="text/html" tells the destination rendering engine how to process text and special characters for HTML emails:
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+```html
+<meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
 ```
 
 ### Continued development
 
 ### Useful resources
 
-- [Validator](https://validator.w3.org) - Validator used to catch mistakes and iron out details.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Validator - w3.org](https://validator.w3.org) - Validator used to catch mistakes and iron out details.
+- [imgbb](https://imgbb.com/) - Free image hosting.
+- [What You Should Know About HTML Email](https://webdesign.tutsplus.com/what-you-should-know-about-html-email--webdesign-12908t) - Great article on things to know.
+- [envato tuts+: Mastering HTML Email](https://webdesign.tutsplus.com/series/mastering-html-email--webdesign-17696) - A wonderful guide to learning HTML email development.
 
 ## Author
 
