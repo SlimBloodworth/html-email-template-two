@@ -65,6 +65,7 @@ Add the role attribute to each <table> element and assign the role to either pre
 - Litmus PutsMail: https://www.putsmail.com/
 - A free online image hosting site - imbb: https://imgbb.com/
 - Entity Code Cheat Sheet: https://entitycode.com/
+- Email Accessibility Article: https://webdesign.tutsplus.com/a-beginners-guide-to-email-accessibility--cms-31240t
 * Image compression tools*
 - JPEGmini: https://www.jpegmini.com/
 - tinyPNG: https://tinypng.com/
