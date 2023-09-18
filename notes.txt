@@ -58,6 +58,20 @@ This is the workflow that will be followed for this project:
  - Accessibility
 Be attentive to text size, contrast, descriptive text, and alt text.
 Add the role attribute to each <table> element and assign the role to either presentation or none.
+This helps those who are using assistive technologies and screen readers.
+
+#6 - Avoiding SPAM filters and optimization
+The cleaner your code, the less likely it is to be marked by SPAM.
+- Image names and sizes
+Keep image file names short and meaningful. This will improve your spam score.
+Images with no text or with long image file names can flag spam. The ratio of image to text has an effect.
+Try to keep the entire email as small as possible: under 100kb is ideal, under 250kb is standard.
+Optimize load times by using a compression app to cut images down to size as much as possible.
+- Subject line 
+Avoid using all caps and more than one exclamation point.
+Avoid using words like "free" and "invest".
+Run a spam test through your testing account.
+
 
 ~ Tools and resources ~
 
