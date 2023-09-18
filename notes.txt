@@ -25,7 +25,39 @@ The internal style sheet will be pulled inline by the ESP (Email Service Provide
 #3 - !DOCTYPE, <html>, and <meta>
 - HTML emails use XHTML Transitional 1.0 as the document type as it is the most compatible document type across email clients.
 - Add xmls="http://www.w3.org/1999/xhtml" to the opening html tag.
-- Adding http-equiv="Content-Type" content="text/html" to the meta tag with charset="UTF-8" tells the destination rendering engine how to process text and special characters for HTML emails. You should encode any special characters anyway.
+- Adding http-equiv="Content-Type" content="text/html" to the meta tag with charset="UTF-8" tells the destination rendering engine how to process text and special characters for HTML emails. 
+You should encode any special characters anyway.
+
+#4 - Suggested workflow
+Do NOT build out the whole project and test it at the end.
+It leads to searching for numerous bugs, and adds a lot of unnecessary time to delivery.
+- Work structurally first.
+Build the structure first and then test it.
+- Leave in all the table borders, and use background colors for certain cells, then remove them at the end.
+This allows for more easily seeing what is being created and how it's working.
+- Make sure it's functional and accessible before you start adding/enhancing.
+- Test and use a Validator often.
+Work until you reach a minor development milestone, then run a test.
+Using a validator will help catch mistakes and iron out details.
+
+This is the workflow that will be followed for this project:
+- Create the structure (skeleton), then test.
+- Add content, then test.
+- Style colors and fonts, then test.
+- Remove any borders and backgrounds used for visual aid in development, then test.
+- Review, send test email to self.
+- Follow up with any needed changes.
+
+#5 - Tips and things to look out for
+ Each email client will handle things differently and will have their own default presets.
+ - AVOID leaving anything up to the email client.
+ Specify all of your widths.
+ For main container elements, set the size in px, then use % inside the containing element as needed.
+ - AVOID using a <main> tag.
+ Many ESP's will already have it when you use them, and this could cause there to be 2 mains tags.
+ - Accessibility
+Be attentive to text size, contrast, descriptive text, and alt text.
+Add the role attribute to each <table> element and assign the role to either presentation or none.
 
 ~ Tools and resources ~
 
