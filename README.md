@@ -41,7 +41,7 @@ Users should be able to:
 - Work until a minor development milestone is reached, then run a test.
 - Run tests through validator, accessibility checker, and spam checker.
 - First: Build the skeleton - then test.
-- Next: Add content - then test.
+- Next: Add content - then test (also test for spam score).
 - Next: Style colors and fonts - then test.
 - Next: Remove borders and backgrounds - then test.
 
