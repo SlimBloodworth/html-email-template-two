@@ -30,7 +30,6 @@ Users should be able to:
 - ![tablet](./screenshot.jpg)
 - ![mobile](./screenshot.jpg)
 
-
 ### Links
 
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
