@@ -70,7 +70,7 @@ Will need to add xmls="http://www.w3.org/1999/xhtml" to the html tag:
 <html lang="en" xmls="http://www.w3.org/1999/xhtml">
 ```
 
-Will also need to add xmlns:o="urn:schemas-microsoft-com:office:office" to the html tag for Microsoft Outlook:
+Will also need to add xmlns:o="urn:schemas-microsoft-com:office:office" to the html tag to insure code gets interpreted correctly for Microsoft Outlook:
 
 ```html
 <html lang="en" xmls="http://www.w3.org/1999/xhtml" xmlns:o="urn:schemas-microsoft-com:office:office">
@@ -80,6 +80,26 @@ Adding http-equiv="Content-Type" content="text/html" tells the destination rende
 
 ```html
 <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
+```
+
+Add meta name="x-apple-disable-message-reformatting" to stop apple from adjusting sizes in their mail apps.
+
+```html
+<meta name="x-apple-disable-message-reformatting">
+```
+
+Adding the following code ensures that PNG images are displayed correctly for Outlook on Windows>
+
+```html
+<!--[if mso]> 
+<noscript> 
+<xml> 
+<o:OfficeDocumentSettings> 
+<o:PixelsPerInch>96</o:PixelsPerInch> 
+</o:OfficeDocumentSettings> 
+</xml> 
+</noscript> 
+<![endif]-->
 ```
 
 ### Continued development

@@ -6,7 +6,19 @@
     <meta http-equiv="Content-Type" content="text/html" charset="UTF-8">
     <!-- ^^ adding http-equiv="Content-Type" content="text/html" tells the destination rendering engine how to process text and special characters for HTML emails -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="x-apple-disable-message-reformatting">
+    <!-- ^^ stops apple from adjusting sizes in their mail apps-->
     <title>HTML Email Template</title>
+    <!--[if mso]> 
+<noscript> 
+<xml> 
+<o:OfficeDocumentSettings> 
+<o:PixelsPerInch>96</o:PixelsPerInch> 
+</o:OfficeDocumentSettings> 
+</xml> 
+</noscript> 
+<![endif]-->
+<!-- ^^ mso = Microsoft Outlook. This helps ensure that PNG images display correctly in Outlook on Windows -->
     <!-- Internal Style Sheet - *NOTE: HTML email only support ONE class PER element! It will NOT support multiple classes on an element! -->
     <style>
 
